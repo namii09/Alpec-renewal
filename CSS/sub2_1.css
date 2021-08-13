@@ -1,0 +1,122 @@
+/*nav  breadCrumb*/
+
+/*sub1_1 main*/
+#sub2_1 #main{
+    margin: 0 auto;
+    width: 100%;
+    position: relative;
+    background-image: url(/images/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+}
+#sub2_1 #main .lnb{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    position: absolute;
+    top: 40%;
+    
+}
+
+#sub2_1 #main .lnb h1{
+    color: white;
+    font-size: 50px;
+   
+}
+    /*상단사이드바*/
+#sub2_1 #main .container{
+    width: 100%;
+    background-color: #E6E6E6;
+    height: 50px;
+    margin-left: 0;
+    margin-top: 170px;
+}
+#sub2_1 #main .lnb > .container > .aside > ul{
+    width: 1366px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin: 0 auto;
+}
+#sub2_1 #main .container .aside > ul > li{
+    list-style-type: none;
+    border-right: 1px solid rgb(168, 168, 168);
+    width: calc(1366px / 2);
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+}
+#sub2_1 #main .container .aside > ul > li:last-child{
+    border: none;
+}
+#sub2_1 #main .container .aside > ul > li > a{
+    color: #141414;
+    font-size: 20px;
+}
+#sub2_1 #main .container .aside > ul > li:hover{
+    background-color: #366A9B;
+    
+}
+#sub2_1 #main .container .aside > ul > li:hover > a{
+    color: white;
+}
+#sub2_1 #main .article{
+    width: 1366px;
+    margin: 0 auto;
+}
+#sub2_1 #main .article .breadCrumb{
+    padding-top: 40px;
+    text-align: right;
+    font-size: 12px;
+    margin-right: 0;
+  }
+
+  /* #sub_contents */
+    #sub_contents{
+        width: 100%;
+    }
+    #sub_contents .container{
+        position: relative;
+        width: 1366px;
+        margin: 0 auto;
+        padding-top: 60px;
+        padding-bottom: 90px;
+        text-align: center;
+        height: 540px;
+        padding-left: 100px;
+    }
+    #sub_contents .sub_col{
+        width: 298px;
+        height: 199px;
+        margin-right: 4px;
+        margin-bottom: 3px;
+        box-shadow: 3px 3px 6px rgba(0, 0, 0,0.4);
+    }
+    #sub_contents .sub_col img{
+        width: 298px;
+        height: 199px;
+        object-fit: cover;
+    }
+    .caption{
+        width: 298px;
+        height: 199px;
+        display: block;
+        position: absolute;
+    }
+    .sub_col:hover .caption{
+        display: block; 
+        overflow:hidden;
+    }
+    .sub_col:hover{
+        background-color: rgba(0,0,0,0.5);
+        color: white;
+    
+    }
+    .sub_col:hover .caption{
+        display: block; 
+        overflow:hidden;
+        background-color: rgba(0,0,0,0.5);
+    
+    }
